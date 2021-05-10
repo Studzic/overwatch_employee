@@ -1,0 +1,32 @@
+{
+  "name": "overwatch_employee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "migrate": "sqlite3 db/myemployees.db < db/schema.sql",
+    "seed": "sqlite3 db/myemployees.db < db/seeds.sql",
+    "db": "sqlite3 db/myemployees.db",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Studzic/overwatch_employee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Studzic/overwatch_employee/issues"
+  },
+  "homepage": "https://github.com/Studzic/overwatch_employee#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
+    "jest": "^26.6.3",
+    "mysql2": "^2.2.5",
+    "sqlite3": "^5.0.2"
+  }
+}
