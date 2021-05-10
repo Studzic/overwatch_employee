@@ -30,3 +30,4 @@ All tests will be performed usuing npm run test
 This README was generated with ❤️ by [README-generator](https://github.com/Studzic) ❤️
 
 ## Functionality
+![2021-05-10 (2)](https://user-images.githubusercontent.com/72447285/117708449-d0714c80-b19d-11eb-97e4-cfa85074a8b2.png)
